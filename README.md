@@ -29,7 +29,7 @@ Analysis of election:
     3. Rymon Anthony Doane            - 11,606  - 3.1%
 
 * Winner of election is:
- *  **Diana DeGette          - 272,892 - 73.8%** - 
+ *  **Diana DeGette          - 272,892 - 73.8%** 
 
 ## Challenge Overview
 
