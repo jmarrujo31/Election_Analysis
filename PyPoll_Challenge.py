@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
+file_to_load = os.path.join( "Resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -100,14 +100,14 @@ with open(file_to_save, "w") as txt_file:
 
          # 6d: Print the county results to the terminal.
     county_results = (
-        "\nElection Results\n"(
+        "\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n\n"
         f"County Votes:\n\n"
         f"-------------------------\n"
-        f"Largets County Turnout: [county_results:,]\n"
-        print(county_results, end="")
+        f"Largets County Turnout: [county_results:,]\n")
+    print("county_results, end=")
 
          # 6e: Save the county votes to a text file.
 
