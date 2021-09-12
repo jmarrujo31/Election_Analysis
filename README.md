@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis for Colorado Board of Election
 ---
 
 ## Project Overview
@@ -17,7 +17,7 @@ The Colorado Board of Election, request an audit of thier local congressional el
 * Data Source: election_results.csv
 * Software: Python 3.9.6
 * Election_Analysis 
-	![](/analysis/election_results.csv)
+![](/analysis/election_results.csv)
 
 ## Summary
 
