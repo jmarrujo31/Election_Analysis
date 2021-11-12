@@ -1,8 +1,8 @@
 # Election Analysis for Colorado Board of Election
----
+
 
 ## Project Overview
----
+
 
 The Colorado Board of Election, request an audit of thier local congressional election.
 
