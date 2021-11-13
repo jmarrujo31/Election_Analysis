@@ -92,7 +92,12 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
-
+    for candidate_name in candidate_votes:
+        # Retrieve vote count and percentage.
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
         # 6b: Retrieve the county vote count.
 
         # 6c: Calculate the percentage of votes for the county.
@@ -106,11 +111,11 @@ with open(file_to_save, "w") as txt_file:
         f"-------------------------\n\n"
         f"County Votes:\n\n"
         f"-------------------------\n"
-        f"Largets County Turnout: [county_results:,]\n")
-    print("county_results, end=")
+        f"Largets County Turnout: [county_votes:,]\n")
+    print(county_results, end="")
 
          # 6e: Save the county votes to a text file.
-
+    txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
 
 
@@ -149,6 +154,6 @@ with open(file_to_save, "w") as txt_file:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
-
+    
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
